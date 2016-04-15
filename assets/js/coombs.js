@@ -1,6 +1,17 @@
 // document is ready
 jQuery(document).ready(function($){
 
+      var team = $("#team-carousel");
+        team.owlCarousel({
+        items: 1,
+        nav: true,
+        navText : ['<i class="icon-arrow-left"></i>','<i class="icon-arrow-right"></i>'],
+        dots:false,
+        loop: true
+    });
+
+
+
     // setup revolution slider
     $('.tp-banner').show().revolution({
         sliderType: "standard",
