@@ -126,12 +126,12 @@ jQuery(document).ready(function($){
     // google maps script
     $('#google-map').gMap({
 
-        address: '23501 Cinco Ranch Blvd. Suite B228 Katy, TX 77494',
+        address: '6 Loudon Road, Suite 202 Concord, NH 03301',
         maptype: 'ROADMAP',
         zoom: 16,
         markers: [
             {
-                address: "23501 Cinco Ranch Blvd. Suite B228 Katy, TX 77494",
+                address: "6 Loudon Road, Suite 202 Concord, NH 03301",
                 icon: {
                     image: "assets/images/icons/map-icon-red.png",
                     iconsize: [32, 39],
