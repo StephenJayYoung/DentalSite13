@@ -916,6 +916,14 @@ box-sizing: border-box;
     text-decoration: none;
 }
 
+/** RESOURCES OVERRIDES */
+
+#resources{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
 /** CONTACT OVERRIDES */
 section#location {
 	padding-top: 40px;
