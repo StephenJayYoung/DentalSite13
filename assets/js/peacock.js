@@ -102,24 +102,6 @@ jQuery(document).ready(function($){
         startWithSlide: 0,
     });
 
-
-// Tour Scripts
-    var ocSlider = $("#oc-slider");
-
-    ocSlider.owlCarousel({
-        items: 1,
-        nav: true,
-        navText : ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        smartSpeed: 1750,
-        autoplay: true,
-        loop: true
-    });
-
-});
-
-
     // tour scripts
     // var relatedPortfolio = $("#related-portfolio");
 
