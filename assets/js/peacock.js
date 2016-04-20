@@ -103,25 +103,25 @@ jQuery(document).ready(function($){
     });
 
     // tour scripts
-    var relatedPortfolio = $("#related-portfolio");
+    // var relatedPortfolio = $("#related-portfolio");
 
-    relatedPortfolio.owlCarousel({
-        margin: 0,
-        nav: true,
-        navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
-        autoplay: false,
-        autoplayHoverPause: true,
-        dots: false,
-        loop: true,
-        touchDrag: false,
-        responsive:{
-            0:{ items:1 },
-            600:{ items:2 },
-            1000:{ items:3 },
-            1200:{ items:4 },
-            1400:{ items:5 }
-        }
-    });
+    // relatedPortfolio.owlCarousel({
+    //     margin: 0,
+    //     nav: true,
+    //     navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+    //     autoplay: false,
+    //     autoplayHoverPause: true,
+    //     dots: false,
+    //     loop: true,
+    //     touchDrag: false,
+    //     responsive:{
+    //         0:{ items:1 },
+    //         600:{ items:2 },
+    //         1000:{ items:3 },
+    //         1200:{ items:4 },
+    //         1400:{ items:5 }
+    //     }
+    // });
 
     // google maps script
     $('#google-map').gMap({

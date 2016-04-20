@@ -889,9 +889,7 @@ box-sizing: border-box;
 	display: block;
 }
 
-.owl-carousel .owl-item img {
-    border-radius: 10px;
-}
+
 
 #gallery{
 	background-color: #e7e6e1;
@@ -899,14 +897,18 @@ box-sizing: border-box;
 	padding-bottom: 40px;
 }
 
-.owl-carousel .owl-item {
+/*.owl-carousel .owl-item img {
+    border-radius: 10px;
+}*/
+
+/*.owl-carousel .owl-item {
     box-sizing: border-box;
     padding: .6em;
     border: 1px solid #ddd;
     background-color: #fff;
     border-radius: 10px;
     user-select: none;
-}
+}*/
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
     background-color: #095f68 !important;
