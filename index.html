@@ -562,7 +562,7 @@
                                 <h2 class="services-heading">Services We Offer</h2>
                                 <span class="services-heading">Click on any service below to learn more about our offerings.</span>
                             </div>
-                            <div id="portfolio" class="portfolio-4 clearfix">
+                            <div id="portfolio" class="portfolio-3 clearfix">
 
                                 <!-- Family Care -->
                                 <article class="portfolio-item">
@@ -761,7 +761,7 @@
                                         </a>
                                     </div>
                                     <div class="portfolio-desc">
-                                        <h3><a data-toggle="modal" data-target="#implant-dentistry" href="#">Cosmetic Dentistry</h3>
+                                        <h3><a data-toggle="modal" data-target="#cosmetic-dentistry" href="#">Cosmetic Dentistry</h3>
                                         <p class="text-center" style="color: #000">Click for more information</p></a>
                                     </div>
 
@@ -946,24 +946,29 @@
                     <!-- TOUR -->
                     <section id="tour" class="page-section">
                         <div class="container clearfix">
-                            <div class="col-md-6">
                             <div class="heading-block center">
                                 <h2 class="services-heading">Office Tour</h2>
                             </div>
-                                <p style="font-size: 22px; color: #000 !important">
-                                Conveniently located in the LaCenterra Shopping Center, our state-of-the-art dental facility provides you and your family with a truly one-of-a-kind experience. With aromatherapy, massage chairs, warm blankets, and noise-cancelling headphones, our goal is for you to have a relaxing experience as you get your dental work completed. Come visit us today!
-                                </p> 
-                            </div>
-                            <div id="posts" class="small-thumbs col-md-6">
-                                <div class="entry clearfix">
-                                <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
-                                    <div class='embed-container'>
-                                        <iframe src='https://www.youtube.com/embed/3raPEaj19a4' frameborder='0' allowfullscreen>
-                                        </iframe>
+                            <div id="slider" class="boxed-slider">
+
+                                <div class="container clearfix">
+
+                                    <div id="oc-slider" class="owl-carousel carousel-widget" data-margin="0" data-items="1" data-animate-in="zoomIn" data-speed="450" data-animate-out="fadeOut">
+
+                                        <a href="#"><img src="assets/images/tour/01.jpg" alt="Slider"></a>
+                                        <a href="#"><img src="assets/images/tour/02.jpg" alt="Slider"></a>
+                                        <a href="#"><img src="assets/images/tour/03.jpg" alt="Slider"></a>
+                                        <a href="#"><img src="assets/images/tour/04.jpg" alt="Slider"></a>
+
                                     </div>
+
                                 </div>
+
                             </div>
+                        </div>
                         </section>
+
+
 
                     <!-- Resources-->
                     <section id="resources" class="page-section">
@@ -978,30 +983,73 @@
 
         <section id="location">
             <div class="heading-block center">
-                <h2 class="services-heading">Contact</h2>
+                <h2 class="services-heading">Location</h2>
             </div>
-                <div id="contact-form" class="container clearfix text-center">
-                <img src="assets/images/barker-logo.svg" alt="" class="img-responsive" />
+
+            <!-- For Desktop View -->
+            <div class="container clearfix text-center" style="padding-bottom:60px">
+                <div class="col-lg-4 col-md-4 visible-lg visible-md address-border-1">
+                    <img src="assets/images/barker-logo.svg" alt="" class="img-responsive barker-logo-bottom"  />
+                    <address>
+                    <p class="nobottommargin address-text">23501 Cinco Ranch Blvd.<br> Suite B228
+                    Katy, TX 77494</p>
+                    <a href="https://www.google.com/maps/place/23501+Cinco+Ranch+Blvd+b228,+Katy,+TX+77494/@29.7430067,-95.7791512,17z/data=!3m1!4b1!4m2!3m1!1s0x864121263380d9a5:0xe264455bce67ac2d" target="_blank"><u class="click-for-address">Click for map &amp; directions</u></a>
+                    </address>
+                </div>
+
+                <div class="col-lg-4 col-md-4 visible-lg visible-md address-border-2">
+                    <h3 class="new-patients">New Patients Call:<br /><a href="tel:+1888912881">(888) 591-2881</a></h3>
+                    <p class="existing-patients nobottommargin">Existing Patients Call:<br> <a href="tel:+12813944692">(281) 394-4692</a></p>
+                    <a class="button btn-block button-small nomargin center" href="#" data-toggle="modal" data-target="#schedule-form">Request Appointment</a>
+                </div>
+
+                <div class="col-lg-4 col-md-4 visible-lg visible-md hours-table address-border-3">
+                <h3 class="hours-headline">Hours:</h3>
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <th>Mon</th>
+                            <td>8:00am - 5:00pm</td>
+                        </tr>
+                        <tr>
+                            <th>Tue</th>
+                            <td>8:00am - 5:00pm</td>
+                        </tr>
+                        <tr>
+                            <th>Wed</th>
+                            <td>8:00am - 5:00pm</td>
+                        </tr>
+                        <tr>
+                            <th>Thu</th>
+                            <td>8:00am - 5:00pm</td>
+                        </tr>
+                        <tr>
+                            <th>Fri</th>
+                            <td>8:00am - 5:00pm</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- For Ipad and phone View -->
+           <div class="container clearfix text-center">
+                <div class="col-sm-6 col-xs-12 visible-sm visible-xs address-border-1">
+                <img src="assets/images/barker-logo.svg" alt="Logo" class="img-responsive barker-logo-bottom"  />
                 <address>
-                <p class="nobottommargin address-text">23501 Cinco Ranch Blvd. Suite B228
+                <p class="nobottommargin address-text">23501 Cinco Ranch Blvd.<br> Suite B228
                 Katy, TX 77494</p>
                 <a href="https://www.google.com/maps/place/23501+Cinco+Ranch+Blvd+b228,+Katy,+TX+77494/@29.7430067,-95.7791512,17z/data=!3m1!4b1!4m2!3m1!1s0x864121263380d9a5:0xe264455bce67ac2d" target="_blank"><u class="click-for-address">Click for map &amp; directions</u></a>
                 </address>
-
-            <h3 class="new-patients">New Patients Call:<br /><a href="tel:+1888912881">(888) 591-2881</a></h3>
-            <p class="existing-patients nobottommargin">Existing Patients Call: <a href="tel:+12813944692">(281) 394-4692</a></p>
-            <p class="hours">Hours: Mon-Fri 8:00am-5:00pm</p>
-            <a class="button btn-block button-small nomargin center" href="#" data-toggle="modal" data-target="#schedule-form">Request Appointment</a>
+                <h3 class="hours-text">Hours: Mon-Friday 8am to 5pm</h3>
             </div>
-        
+
+            <div class="col-sm-6 col-xs-12 visible-sm visible-xs">
+                <h3 class="new-patients">New Patients Call:<br /><a href="tel:+1888912881">(888) 591-2881</a></h3>
+                <p class="existing-patients nobottommargin">Existing Patients Call:<br> <a href="tel:+12813944692">(281) 394-4692</a></p>
+                <a class="button btn-block button-small nomargin center" style="margin-bottom: 60px !important" href="#" data-toggle="modal" data-target="#schedule-form">Request Appointment</a>
+            </div>
+
+           </div>
         </section><!-- #page-title end -->
-
-        <!-- Google Map
-        ============================================= -->
-        <div id="google-map" class="gmap"></div>
-
-
-
         <!-- Footer
         ============================================= -->
         <footer id="footer" class="clearfix">
