@@ -133,11 +133,11 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 #primary-menu > ul > li.current a {
-	color: #d75231 !important;
+	color: #555 !important;
 }
 
 #primary-menu > ul > li a:hover {
-	color: #095f68  !important;
+	color: #fc0c62  !important;
 }
 
 #header.full-header #primary-menu > ul {
@@ -147,20 +147,20 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 #primary-menu > ul > li.current a {
-    color: #000 !important;
+    color: #555 !important;
     text-decoration: none !important;
 }
 
 #primary-menu ul li a {
-    color: #000;
+    color: #555;
 }
 
 #primary-menu > ul > li.current a:hover{
-    color: #095f68  !important;
+    color: #fc0c62  !important;
 }
 
 #primary-menu > ul > li a:hover{
-    color: #095f68 !important;
+    color: #fc0c62 !important;
 }
 
 #primary-menu ul li a {
@@ -177,7 +177,7 @@ nav#primary-menu.statick-sticky > ul{
 
 @media (max-width: 991px) {
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a {
-    color: #095f68 !important;
+    color: #fc0c62 !important;
 	}
 }
 
@@ -429,7 +429,7 @@ section#specials {
 }
 
 .pricing-background{
-	background-color: #e7e6e1 !important;
+	background-color: #f4f9f9 !important;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius:10px;
 }
@@ -563,7 +563,7 @@ section#specials {
 }
 
 .reviews-header{
-	color: #000 !important; 
+	color: #fff !important; 
 	text-shadow: 1px 1px #fff !important;
 }
 
