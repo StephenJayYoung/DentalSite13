@@ -12,22 +12,22 @@
 body{
 	color: #555 !important;
 	background-color: #f4f9f9;
-	font-family: 'Sintony', sans-serif !important;
+	font-family: "kepler-std-display", serif !important;
 }
 
 a {
-    font-family: 'Sintony', sans-serif !important;
+    font-family: "kepler-std-display", serif;
 }
 
 h2 {
     color: #548393;
-    font-family: "Rufina", serif;
-    font-weight: 900 !important;
+    font-family: "kepler-std-display", serif;
+    font-weight: 700 !important;
 }
 
 h3, h4, h5, h6 {
     color: #555;
-    font-family: 'Rufina', serif;
+    font-family: "kepler-std-display", serif;
 }
 
 #logo {
@@ -893,9 +893,9 @@ box-sizing: border-box;
 	display: block;
 }
 
-.owl-carousel .owl-item img {
+/*.owl-carousel .owl-item img {
     border-radius: 10px !important;
-}
+}*/
 
 .owl-carousel .owl-item {
     box-sizing: border-box;
