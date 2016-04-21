@@ -611,114 +611,11 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 	text-decoration: none !important;
 }
 
-/*For services scaffolding*/
-@media (min-width: 1200px) {
-	.cleartray-margin{
-		margin-top:-125px !important;
-	}
-
-	.air-abrasion-margin{
-		margin-top:-325px !important;
-	}
-
-	.cosmetic-dentistry-margin{
-		margin-top:-125px !important;
-	}
-
-	.sleep-apnea-margin{
-		margin-top:0px !important
-	}
-
-	.mercury-free-margin{
-			margin-top:-85px !important
-	}
-	.family-care-margin{
-		margin-top:-35px !important;
+@media (max-width: 767px) and (min-width: 480px) {
+	#portfolio:not(.portfolio-1) .portfolio-desc h3 {
+	    font-size: 15px;
 	}
 }
-
-@media (min-width: 992px) and (max-width: 1199px){
-	.air-abrasion-margin{
-		margin-top:-275px !important;
-	}
-
-	.family-care-margin{
-		margin-top:-45px !important;
-	}
-
-		.cosmetic-dentistry-margin{
-		margin-top:-105px !important;
-	}
-
-		.mercury-free-margin{
-			margin-top:-85px !important
-	}
-
-		.cleartray-margin{
-		margin-top:-105px !important;
-	}
-
-	.mercury-padding{
-		padding-top: 20px !important;
-	}
-
-	.cleartray-padding {
-		padding-top: 7px !important;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-	.air-abrasion-margin{
-	margin-top:-220px !important;
-	}
-
-	.family-care-margin{
-	margin-top:-45px !important;
-	}
-
-	.cosmetic-dentistry-margin{
-	margin-top:-75px !important;
-	}
-
-	.mercury-free-margin{
-	margin-top:-75px !important
-	}
-
-	.cleartray-margin{
-	margin-top:-75px !important;
-	}
-
-	.mercury-padding{
-	padding-top: 27px !important;
-	}
-}
-
-@media (min-width: 481px) and (max-width: 767px){
-	#portfolio:not(.portfolio-1) .portfolio-desc {
-	    padding: 0px 7px 0px;
-	}
-
-	.family-care-margin{
-		margin-top:-195px !important;
-	}
-
-		.air-abrasion-margin{
-		margin-top:-40px !important;
-	}
-
-		.sleep-apnea-margin{
-		margin-top:-95px !important;
-	}
-
-		.cleartray-margin{
-		margin-top:-95px !important;
-	}
-}
-
-.portfolio-desc{
-	    font-family: 'Gentium Book Basic', sans-serif !important;
-}
-
 .portfolio-desc h3 {
     font-size: 18px;
     margin: 8px 0 0 0;
@@ -1125,13 +1022,23 @@ hoursText{
 
 	.address-border-1{
 		border-right: 1px solid #000;
-		height: 310px;
+		height: 320px;
 	}
 
-	.address-border-2{
+/*	.address-border-2{
 		border-right: 1px solid #000;
-			height: 100px;
-	}
+			height: 490px;
+	}*/
+
+	.hours-text {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #555;
+}
+
+/*.new-patients {
+    margin-top: 175px !important;
+}*/
 
 }
 
