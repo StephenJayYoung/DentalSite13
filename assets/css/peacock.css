@@ -1107,12 +1107,12 @@ hoursText{
 
 .address-border-1{
 	border-right: 1px solid #000;
-	height: 310px;
+	height: 340px;
 }
 
 .address-border-2{
 	border-right: 1px solid #000;
-		height: 310px;
+		height: 340px;
 }
 
 @media(min-width:767px) and (max-width: 990px){
