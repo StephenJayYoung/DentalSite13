@@ -907,7 +907,7 @@ box-sizing: border-box;
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-    background-color: #095f68 !important;
+    background-color: #fc0c62 !important;
     color: #FFF !important;
     text-decoration: none;
 }
@@ -1522,5 +1522,5 @@ input, select, textarea {
 }
 
 #gotoTop:hover {
-    background-color: #abdce1 !important;
+    background-color: #fc0c62!important;
 }
