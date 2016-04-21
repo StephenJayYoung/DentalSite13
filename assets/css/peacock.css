@@ -933,7 +933,7 @@ section#location {
 	padding-top: 40px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #fff;
+	background-color: #f4f9f9;
 	padding-bottom: 0px !important;
 	border-top: .5px solid #1f1b18;
 }
@@ -1330,7 +1330,7 @@ address {
 
 #footer {
     position: relative;
-    background-color: #f5f5f5 !important;
+    background-color: #fff !important;
 }
 
 .patient-financing-text{
@@ -1464,8 +1464,8 @@ address {
 }
 
 #copyrights {
-  background-color: #095f68 !important;
-  color: #8dc5cb !important;
+  background-color: #fff !important;
+  color: #9b9992 !important;
 }
 
 .social-icon i {
