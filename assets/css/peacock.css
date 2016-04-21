@@ -595,7 +595,7 @@ section#services {
 
 .click-for-info{
 	color: #555 !important;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
@@ -835,6 +835,54 @@ box-sizing: border-box;
 /*	padding-right: 20px;*/
 }
 
+.new-patient-reg-form{
+	margin-top: 30px !important;
+}
+
+/*.resources-bottom-border{
+	border-bottom: 1px solid #000;
+}*/
+
+@media (max-width:768px){
+		.resources-seperation{
+		border-bottom: 1px solid #000;
+	}
+
+	.reg-form-text{
+		margin-top: 20px;
+	}
+
+	.patient-financing-text{
+		margin-top: 20px;
+	}
+
+	.new-patient-reg-form{
+	margin-top: 20px !important;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+		.new-patient-reg-form{
+		margin-top: -5px !important;
+	}
+}
+
+@media(max-width:766px){
+
+	.resources-border-1{
+		border-right: none;
+	}
+
+	.resources-border-2{
+		border-right: none;
+	}
+
+	.new-patient-reg-form{
+		margin-top: 0px !important;
+	}
+
+}
 
 /** CONTACT OVERRIDES */
 section#location {
@@ -1242,34 +1290,6 @@ address {
 #footer {
     position: relative;
     background-color: #fff !important;
-}
-
-.patient-financing-text{
-	font-size: 35px;
-}
-
-.awards-text{
-	font-size: 35px;
-}
-
-@media (min-width: 768px) and (max-width: 990px){
-	.patient-financing-text{
-		font-size: 26px;
-	}
-
-	.awards-text{
-		font-size: 26px;
-	}
-
-}
-
-.patient-financing-mobile-text{
-	font-size: 30px;
-}
-
-.mobile-awards{
-	border-bottom: 1px solid #000;
-
 }
 
 .footer-icons{
