@@ -967,7 +967,7 @@ section#location {
     padding: 6px 10px;
     border-bottom: 1px solid rgba(0, 0, 0, .25);
     font-size: 20px;
-    color: #777777 !important;
+    color: #555 !important;
 }
 
 #location td {
@@ -1154,23 +1154,23 @@ address {
 
 .address-text{
 	margin-bottom: 14px !important;
-	color: #777777;
+	color: color: #555;;
 }
 
 .new-patients{
 	font-size: 28px;
 	margin-top: 15px;
-	color: #777777;
+	color: color: #555;;
 }
 
 .new-patients a{
 	font-size: 35px;
-	color: #095f68;
+	color: #fc0c62;
 }
 
 #location p.new-patient-hotline, #location p.existing-patients {
 	font-size: 25px;
-	color: #777777;
+	color: #555;;
 	margin-bottom: 35px !important;
 /*	line-height: 1.45 !important;*/
 }
@@ -1178,23 +1178,23 @@ address {
 .hours-headline{
 	margin-top:-10px !important;
 	font-size: 28px;
-	color: #777777 !important;
+	color: #555; !important;
 }
 
 .hours-text{
 	font-size: 22px;
 	margin-top: 20px;
-	color: #777777 !important;
+	color: #555; !important;
 }
 
 .hours-table{
 	margin-top: 25px;
-	color: #000;
+	color: color: #555;;
 }
 
 
 .click-for-address{
-	color: #095f68 !important;
+	color: #fc0c62 !important;
 	font-size: 20px !important;
 }
 
@@ -1255,7 +1255,7 @@ address {
 
 .existing-patients a{
 	font-size: 25px;
-	color: #095f68;
+	color: #fc0c62;
 }
 
 .hours{
