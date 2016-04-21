@@ -444,7 +444,7 @@ section#specials {
 }
 
 .pricing-title {
-    background-color: #05b0c2;
+    background-color: #fc0c62;
 }
 
 .pricing-title h3 {
@@ -452,7 +452,7 @@ section#specials {
 }
 
 .pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
-    color: #1f1b18 !important;
+    color: #5a3240 !important;
 }
 
 #pricing-box-one{
@@ -460,7 +460,7 @@ section#specials {
 }
 
 #professional-smile-whitening .pricing-title {
-	background-color: #05b0c2 !important;
+	background-color: #fc0c62 !important;
 }
 
 .dark .pricing-box, .dark .pricing-box.best-price {
@@ -511,7 +511,11 @@ section#specials {
 }
 
 .dark .pricing-price, .pricing-box.best-price .pricing-price, .pricing-features li, .pricing-box p, .dark .pricing-box.best-price .price-unit, .dark .pricing-box .price-unit {
-	color: #1f1b18 !important;
+	color: #555 !important;
+}
+
+.price-save{
+	color: #5a3240 !important;
 }
 
 @media (min-width: 768px) {
