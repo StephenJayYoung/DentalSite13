@@ -377,7 +377,8 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 @media (min-width: 768px) and (max-width: 990px){
-.bio-image{width: 60%; max-width: 60%;}
+.bio-image{width: 95%; max-width: 95%;}
+.dr-text{font-size: 14px !important;}
 /*.col-sm-push-3 {left: 30%;}*/
 }
 
@@ -590,6 +591,11 @@ section#services {
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	background-color: #f4f9f9 !important;
+}
+
+.click-for-info{
+	color: #555 !important;
+	font-size: 12px;
 }
 
 p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
