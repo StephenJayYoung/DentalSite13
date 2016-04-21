@@ -520,6 +520,10 @@ section#specials {
 	color: #5a3240 !important;
 }
 
+.d-codes{
+	font-size: 11px;
+}
+
 @media (min-width: 768px) {
 	#specials .col-sm-4 {
 	    width: 32%;
@@ -542,17 +546,13 @@ section#specials {
 
 @media (min-width: 991px) and (max-width: 1199px) {
 	.pricing-box-responsive{
-	padding-bottom: 25px;
+	padding-bottom: 35px;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
 	.pricing-box-responsive{
-	padding-bottom: 50px;
-	}
-
-	.pricing-box-responsive-two{
-	padding-bottom: 25px;
+	padding-bottom: 35px;
 	}
 }
 
