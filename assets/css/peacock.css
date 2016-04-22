@@ -21,7 +21,7 @@ a {
 }
 
 h2 {
-    color: #548393;
+    color: #027d82;
     font-family: "kepler-std-display", serif;
     font-weight: 700 !important;
 }
@@ -221,15 +221,15 @@ nav#primary-menu.statick-sticky > ul{
 
 /** ACTIONS OVERRIDES */
 
-#actions{padding:20px 0;background-color:#abdce1;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
+#actions{padding:20px 0;background-color:#252a2e;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
 .device-xxs #actions{padding:10px 0;}
-#actions h3{color:#555 !important;font-size:16px;margin-bottom:0;}
+#actions h3{color:#fff !important;font-size:16px;margin-bottom:0;}
 #actions h3 a{display:block;color:#000;font-size:2.5em;line-height:1;font-family: "Open Sans";text-shadow:1px 1px 1px rgba(0,0,0,.4);}
 .device-xs #actions h3 a,
 .device-xxs #actions h3 a{font-size:2em;}
 #actions p,
-#actions span{color:#555;margin-top:8px;}
-#actions span a{color:#fc0c62;}
+#actions span{color:#fff;margin-top:8px;}
+#actions span a{color:#fcb426;}
 #actions a.button{height:auto !important;padding:5px 20px !important; font-family: "Open Sans", serif;}
 #actions .phone-numbers{border-right:1px solid #000;padding-right:20px;text-align:right;}
 #actions .schedule-online{border-left:1px solid rgba(0, 0, 0, .1);padding-left:20px;text-align:left;}
@@ -237,9 +237,9 @@ nav#primary-menu.statick-sticky > ul{
 .device-xs #actions .schedule-online:not(.close),
 .device-xxs #actions .phone-numbers,
 .device-xxs #actions .schedule-online{border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
-#actions .schedule-online a.button{background-color:#fc0c62 !important;font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
-#actions .schedule-online a.button{background-color:#fc0c62 !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
-#actions .schedule-online a.button:hover{background-color:#5a3240 !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#actions .schedule-online a.button{background-color:#fcb426  !important;font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#actions .schedule-online a.button{background-color:#fcb426  !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#actions .schedule-online a.button:hover{background-color:#c79229 !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
 
 .device-xs #actions .schedule-online a.button, .device-xxs #actions .schedule-online a.button {font-size:12px;padding:5px 10px !important;line-height:25px;}
 #actions .existing-patients{margin-top:10px;}
@@ -254,7 +254,7 @@ nav#primary-menu.statick-sticky > ul{
 /** TEAM OVERRIDES */
 
 #team{
-	background-color: #f4f9f9;
+	background-color: #efefe9;
 	padding-top: 40px;
 	line-height: 1.5 !important;
 }
@@ -466,7 +466,7 @@ section#specials {
 }
 
 .pricing-title {
-    background-color: #fc0c62;
+    background-color: #c04355;
 }
 
 .pricing-title h3 {
@@ -474,7 +474,7 @@ section#specials {
 }
 
 .pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
-    color: #5a3240 !important;
+    color: #252a2e !important;
 }
 
 #pricing-box-one{
@@ -482,7 +482,7 @@ section#specials {
 }
 
 #professional-smile-whitening .pricing-title {
-	background-color: #fc0c62 !important;
+	background-color: #c04355 !important;
 }
 
 .dark .pricing-box, .dark .pricing-box.best-price {
@@ -533,11 +533,11 @@ section#specials {
 }
 
 .dark .pricing-price, .pricing-box.best-price .pricing-price, .pricing-features li, .pricing-box p, .dark .pricing-box.best-price .price-unit, .dark .pricing-box .price-unit {
-	color: #555 !important;
+	color: #797874 !important;
 }
 
 .price-save{
-	color: #5a3240 !important;
+	color: #252a2e !important;
 }
 
 .d-codes{
@@ -614,11 +614,11 @@ section#services {
 	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #f4f9f9 !important;
+	background-color: #efefe9 !important;
 }
 
 .click-for-info{
-	color: #555 !important;
+	color: #797874 !important;
 	font-size: 13px;
 }
 
@@ -670,7 +670,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 .portfolio-desc h3 a:hover {
-    color: #fc0c62 !important;
+    color: #027d82 !important;
 
 }
 
@@ -809,7 +809,7 @@ section#tour {
 /*	margin-top: -40px;*/
   padding-top: 30px;
   padding-bottom: 40px;
-	background-color: #fff !important;
+	background-color: #252a2e !important;
 }
 
 .tour-text{
@@ -846,9 +846,8 @@ box-sizing: border-box;
 .owl-carousel .owl-item {
     box-sizing: border-box;
     /*padding: .6em;*/
-    border: 1px solid #ddd;
+/*    border: 1px solid #ddd;*/
     background-color: #fff;
-    border-radius: 10px;
     user-select: none;
 }
 
@@ -863,7 +862,7 @@ box-sizing: border-box;
 #resources{
 	padding-top: 30px;
 	padding-bottom: 30px;
-	background-color: #ffead2;
+	background-color: #efefe9;
 }
 
 .resources-border-1{
@@ -1338,7 +1337,7 @@ address {
 
 #footer {
     position: relative;
-    background-color: #fff !important;
+    background-color: #797874 !important;
 }
 
 .footer-icons{
@@ -1444,7 +1443,7 @@ address {
 }
 
 #copyrights {
-  background-color: #fff !important;
+  background-color: #797874 !important;
   color: #9b9992 !important;
 }
 
