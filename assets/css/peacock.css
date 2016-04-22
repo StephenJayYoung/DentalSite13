@@ -11,8 +11,8 @@
 
 body{
 	color: #555 !important;
-	background-color: #f4f9f9;
-	font-family: "kepler-std-display", serif !important;
+/*	background-color: #f4f9f9;
+*/	font-family: "kepler-std-display", serif !important;
 	font-size: 17px;
 }
 
@@ -41,6 +41,11 @@ h3, h4, h5, h6 {
 	#primary-menu ul li a {
 	    font-size: 11px;
 	}
+}
+
+#logo img {
+    padding-bottom: 7px;
+    padding-top: 7px;
 }
 
 #header {
@@ -921,8 +926,8 @@ section#location {
 	padding-top: 40px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #f4f9f9;
-	padding-bottom: 0px !important;
+	margin-bottom: 30px;
+/*	background-color: #f4f9f9;*/
 	border-top: .5px solid #1f1b18;
 }
 
@@ -1243,6 +1248,8 @@ address {
 .existing-patients a{
 	font-size: 25px;
 	color: #fc0c62;
+	font-family: sans-serif;
+  padding: 0px !important;
 }
 
 .hours{
