@@ -648,7 +648,17 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 		text-align: center;
 }
 
-@media (min-width: 767px) and (max-width: 990px) {
+
+@media(min-width: 480px) and (max-width:767){
+ .periodontal-box{
+ 	text-align: center !important;
+ }
+}
+
+
+
+
+@media (min-width: 767px) and (max-width: 991px) {
 	.portfolio-desc h3 {
     font-size: 18px;
 	}
@@ -867,9 +877,9 @@ box-sizing: border-box;
 /*	padding-right: 20px;*/
 }
 
-.new-patient-reg-form{
+/*.new-patient-reg-form{
 	margin-top: 30px !important;
-}
+}*/
 
 /*.resources-bottom-border{
 	border-bottom: 1px solid #000;
@@ -888,9 +898,9 @@ box-sizing: border-box;
 		margin-top: 20px;
 	}
 
-	.new-patient-reg-form{
+/*	.new-patient-reg-form{
 	margin-top: 20px !important;
-	}
+	}*/
 
 	.resources-border-2 {
     border-right: none;
@@ -899,11 +909,11 @@ box-sizing: border-box;
 
 }
 
-@media (min-width: 768px) and (max-width: 1200px){
+/*@media (min-width: 768px) and (max-width: 1200px){
 		.new-patient-reg-form{
 		margin-top: -5px !important;
 	}
-}
+}*/
 
 @media(max-width:766px){
 
@@ -915,9 +925,9 @@ box-sizing: border-box;
 		border-right: none;
 	}
 
-	.new-patient-reg-form{
+/*	.new-patient-reg-form{
 		margin-top: 0px !important;
-	}
+	}*/
 
 }
 
