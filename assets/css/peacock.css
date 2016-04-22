@@ -10,7 +10,7 @@
 /** MENU OVERRIDES */
 
 body{
-	color: #555 !important;
+	color: #797874 !important;
 /*	background-color: #f4f9f9;
 */	font-family: "kepler-std-display", serif !important;
 	font-size: 17px;
@@ -141,11 +141,11 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 #primary-menu > ul > li.current a {
-	color: #555 !important;
+	color: #797874 !important;
 }
 
 #primary-menu > ul > li a:hover {
-	color: #fc0c62  !important;
+	color: #c04355  !important;
 }
 
 #header.full-header #primary-menu > ul {
@@ -155,20 +155,20 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 #primary-menu > ul > li.current a {
-    color: #555 !important;
+    color: #797874 !important;
     text-decoration: none !important;
 }
 
 #primary-menu ul li a {
-    color: #555;
+    color: #797874;
 }
 
 #primary-menu > ul > li.current a:hover{
-    color: #fc0c62  !important;
+    color: #c04355  !important;
 }
 
 #primary-menu > ul > li a:hover{
-    color: #fc0c62 !important;
+    color: #c04355 !important;
 }
 
 #primary-menu ul li a {
@@ -185,7 +185,7 @@ nav#primary-menu.statick-sticky > ul{
 
 @media (max-width: 991px) {
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a {
-    color: #fc0c62 !important;
+    color: #c04355 !important;
 	}
 }
 
