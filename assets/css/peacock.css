@@ -867,7 +867,7 @@ box-sizing: border-box;
 	border-bottom: 1px solid #000;
 }*/
 
-@media (max-width:768px){
+@media (max-width:767px){
 		.resources-seperation{
 		border-bottom: 1px solid #000;
 	}
