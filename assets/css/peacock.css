@@ -760,6 +760,39 @@ box-sizing: border-box;
 
 }
 
+/*For Pay Online Modal*/
+.resources-table-styles{
+	border:0px;
+	padding:0px;
+	border-spacing:2px;
+}
+
+.resources-submit{
+	text-align: left;
+	vertical-align: middle;
+}
+
+.pay-junction{
+	text-align: left;
+	vertical-align: :top;
+	font-family:Arial, Helvetica, sans-serif;
+	 font-size:9px;
+	  color:#666666
+}
+
+.pay-junction-button{
+	text-align: bottom;
+	border: 0px;
+	width:15px;
+	height:15px;
+}
+
+.merchant-account{
+	text-align: middle;
+	color:#666666;
+	text-decoration:underline;
+}
+
 /** CONTACT OVERRIDES */
 section#location {
 	padding-top: 40px;
