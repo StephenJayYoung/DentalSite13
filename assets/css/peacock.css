@@ -27,7 +27,7 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-    color: #555;
+    color: #797874;
     font-family: "kepler-std-display", serif;
 }
 
@@ -126,7 +126,7 @@ nav#primary-menu.statick-sticky > ul{
 
 .button.button-3d:hover{
 		font-family: "Open Sans", serif;
-    background-color: #0b5f62 !important;
+    background-color: #9c3241 !important;
     color: #fff !important;
 }
 
@@ -670,7 +670,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 
 
 .portfolio-desc h3  a {
-	color: #fc0c62 !important;
+	color: #027d82 !important;
 }
 
 .portfolio-desc h3 a:hover {
@@ -856,7 +856,7 @@ box-sizing: border-box;
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-    background-color: #fc0c62 !important;
+    background-color: #fcb426 !important;
     color: #FFF !important;
     text-decoration: none;
 }
@@ -867,6 +867,14 @@ box-sizing: border-box;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	background-color: #fff;
+}
+
+#resources .button{
+	background-color: #027d82 !important;
+}
+
+#resources .button:hover{
+	background-color: #0b5f62 !important;
 }
 
 /*.resources-button{
@@ -977,7 +985,7 @@ section#location {
     padding: 6px 10px;
     border-bottom: 1px solid rgba(0, 0, 0, .25);
     font-size: 20px;
-    color: #555 !important;
+    color: #797874 !important;
 }
 
 #location td {
@@ -1139,7 +1147,7 @@ hoursText{
 	.hours-text {
     font-size: 18px;
     margin-top: 20px;
-    color: #555;
+    color: #797874;
 }
 
 /*.new-patients {
@@ -1174,47 +1182,56 @@ address {
 
 .address-text{
 	margin-bottom: 14px !important;
-	color: color: #555;;
+	color: #797874
 }
 
 .new-patients{
 	font-size: 28px;
 	margin-top: 15px;
-	color: color: #555;;
+	color: #797874;
 }
 
 .new-patients a{
 	font-size: 35px;
-	color: #fc0c62;
+	color: #c04355;
+	font-family: sans-serif;
 }
 
 #location p.new-patient-hotline, #location p.existing-patients {
 	font-size: 25px;
-	color: #555;;
+	color: #797874;
 	margin-bottom: 35px !important;
 /*	line-height: 1.45 !important;*/
+}
+
+#location .button{
+	background-color: #c04355 !important;
+}
+
+#location .button:hover{
+	background-color: #9c3241  !important;
 }
 
 .hours-headline{
 	margin-top:-10px !important;
 	font-size: 28px;
-	color: #555; !important;
+	color: #797874 !important;
 }
 
 .hours-text{
 	font-size: 22px;
 	margin-top: 20px;
-	color: #555; !important;
+	color: #797874 !important;
 }
 
 .hours-table{
 	margin-top: 25px;
-	color: color: #555;;
+	color: #797874
 }
 
 
 .click-for-address{
-	color: #fc0c62 !important;
+	color: #c04355 !important;
 	font-size: 20px !important;
 }
 
@@ -1268,7 +1285,7 @@ address {
 
 .existing-patients a{
 	font-size: 25px;
-	color: #fc0c62;
+	color: #c04355;
 	font-family: sans-serif;
   padding: 0px !important;
 }
@@ -1497,18 +1514,23 @@ input, select, textarea {
 /*CUSTOM BUTTON COLOR*/
 
 .button{
-	background-color: #027d82 !important;
+	background-color: #c04355 !important;
+	font-family: "Open Sans", serif;
+}
+
+.button:hover{
+	background-color: #9c3241 !important;
 	font-family: "Open Sans", serif;
 }
 
 .portfolio-overlay a.center-icon {
-    color: #df6c4f;
+    color: #fcb426;
 }
 
 .portfolio-overlay a.center-icon:hover{
-    color: #095f68;
+    color: #fcb426;
 }
 
 #gotoTop:hover {
-    background-color: #fc0c62!important;
+    background-color: #fcb426 !important;
 }
