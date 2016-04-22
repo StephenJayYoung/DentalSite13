@@ -356,25 +356,25 @@ nav#primary-menu.statick-sticky > ul{
 @media(min-width: 1200px){
 	.team-subtext{
 	font-size: 20px;
-}
+	}
 }
 
 @media(min-width: 768px) and(991px){
 	.team-subtext{
 	font-size: 18px;
-}
+	}
 }
 
 @media(max-width: 768px){
 	.team-subtext{
 	font-size: 15px;
-}
+	}
 }
 
 @media (min-width:1200px) {
 .team-image{
     width: 65%;
-}
+	}
 }
 
 @media (min-width:991px) and (max-width: 1199px) {
@@ -407,7 +407,6 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 
-
 @media (min-width: 1200px){
 	.team-member-margin{
 		margin-left: -40px;
@@ -420,6 +419,7 @@ nav#primary-menu.statick-sticky > ul{
 	}
 
 }
+
 .portfolio-item-team{
 	position: relative;
 	float: left;
@@ -427,23 +427,8 @@ nav#primary-menu.statick-sticky > ul{
 	margin: 0 12px 12px 0;
 	box-sizing: border-box;
 	padding: .6em;
-/*	border: 1px solid #ddd;
-	border-radius: 10px;*/
-/*	background-color: #ffffff;*/
-}
-/*@media (min-width: 768px) and (max-width: 990px){
-.bio-image{width: 170%; max-width: 170%;}
-.col-sm-push-3 {left: 35%;}
-.team-text{ font-size: 13px;}
 }
 
-@media (min-width: 480px) and (max-width: 767px){
-.bio-image{width: 170%; max-width: 170%;}
-}
-
-@media (min-width: 100px) and (max-width: 479px){
-.bio-image{width: 140%; max-width: 140%; padding-right: 15px;}
-}*/
 
 /** SPECIALS OVERRIDES */
 section#specials {
@@ -459,7 +444,6 @@ section#specials {
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius:10px;
 }
-
 
 .pricing-title {
     border-radius: 10px 10px 0 0;
@@ -559,14 +543,6 @@ section#specials {
 	}
 }
 
-/*Padding for pricing section in mobile */
-
-/*@media (min-width: 1200px) {
-	.pricing-box-responsive-two{
-	padding-bottom: 25px;
-	}
-
-}*/
 
 @media (min-width: 991px) and (max-width: 1199px) {
 	.pricing-box-responsive{
@@ -660,14 +636,11 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 
-
-
 @media (min-width: 767px) and (max-width: 991px) {
 	.portfolio-desc h3 {
     font-size: 18px;
 	}
 }
-
 
 .portfolio-desc h3  a {
 	color: #027d82 !important;
@@ -675,138 +648,8 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 
 .portfolio-desc h3 a:hover {
     color: #027d82 !important;
-
 }
 
-/** MEMBERS OVERRIDES */
-section#members {
-	margin-top: 0px;
-	padding-top: 60px;
-	margin-bottom: 0;
-	padding-bottom: 30px;
-	border-bottom: 1px solid #e8e8e8;
-	background-color: #abdce1 !important; 
-}
-
-.pricing-box.pricing-extended .pricing-action-area {
-    padding: 27px !important;
-}
-
-section#members .heading-block h2{
-		color: #000 !important;
-}
-
-section#members .heading-block span{
-		color: #fff !important;
-}
-
-.dark .pricing-box.pricing-extended .pricing-action-area {
-    background-color: #fff;
-}
-
-.pricing-box.pricing-extended {
-    background-color: #FFF !important;
-}
-
-.icon-ok:before {
-    color: #05b0c2;
-}
-
-.pricing-box {
-	border-radius: 1em;
-	color: #ffffff !important;
-}
-
-.pricingIconText{
-	color: #ffffff !important;
-}
-
-.members-pricing .price-unit{
-	color: #ffffff !important;
-}
-
-#members-sign {
-	color: #1f1b18 !important;
-}
-
-#members-month {
-	color: #1f1b18 !important;
-}
-
-.members-pricing strong {
-    color: #1f1b18 !important;
-    font-weight: bold !important;
-}
-
-.price-tenure {
-	color: #1f1b18 !important;
-
-}
-
-.dark .pricing-box.pricing-extended .pricing-meta {
-    color: #ee2737 !important;
-}
-
-.dark .pricing-title {
-    border-bottom-color: #000;
-}
-
-.dark .pricing-box.pricing-extended .pricing-meta {
-    color: #1f1b18 !important;
-}
-
-.pricing-box.pricing-extended .pricing-features li {
-  color: #1f1b18 !important;
-}
-
-.pricing-box.pricing-extended .pricing-action-area {
-	background-color: #1ABC9C;
-	color: #ffffff;
-	border-top-right-radius: 1em;
-	border-bottom-right-radius: 1em !important;
-	border-bottom-left-radius: 0em !important;
-}
-
-@media (min-width: 991px) {
-	.pricing-box.pricing-extended .pricing-action-area {
-    background-color: #1ABC9C;
-    color: #ffffff;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em !important;
-    border-bottom-left-radius: 0em !important;
-	}
-}
-
-@media (max-width: 990px){
-	.pricing-box.pricing-extended .pricing-action-area {
-    background-color: #1ABC9C;
-    color: #ffffff;
-    border-top-right-radius: 0em;
-    border-bottom-right-radius: 1em !important;
-    border-bottom-left-radius: 1em !important;
-	}
-}
-
-.pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
-	color: #ffffff;
-}
-
-/*#members a.button {*/
-/*	border-bottom: 3px solid rgba(0,0,0,0.15);*/
-/*	background-color: #095f68 !important;
-	color: #fff;
-}*/
-
-/*#members a.button:hover{*/
-/*	border-bottom: 3px solid rgba(0,0,0,0.15);*/
-/*	background-color: #5a3240 !important;
-	color: #fff;
-}*/
-
-/*.button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover {
-	background-color: #5a3240 !important;
-	color: #fff;
-}*/
 
 /** TOUR OVERRIDES */
 section#tour {
