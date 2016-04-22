@@ -251,6 +251,10 @@ nav#primary-menu.statick-sticky > ul{
 	padding-top: 40px;
 }
 
+.family-photo{
+	padding-bottom: 20px;
+}
+
 .hr-large{
 	color:#000 !important;
 	padding-bottom: 20px;
@@ -268,6 +272,14 @@ nav#primary-menu.statick-sticky > ul{
 	border-top: 1px solid #000;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.team-title{
+	padding-left: 15px !important;
+}
+
+.team-content{
+	padding-left: 15px; padding-right: 15px
 }
 
 .team-text{
@@ -564,6 +576,10 @@ section#specials {
   padding-bottom: 30px;
 }
 
+.birdeye-text{
+	color: #fff !important;
+}
+
 .reviews-header{
 	color: #fff !important; 
 	text-shadow: 1px 1px #fff !important;
@@ -616,12 +632,20 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 	    font-size: 15px;
 	}
 }
+
 .portfolio-desc h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 8px 0 0 0;
 		padding: 2px;
 		text-align: center;
 }
+
+@media (min-width: 767px) and (max-width: 990px) {
+	.portfolio-desc h3 {
+    font-size: 18px;
+	}
+}
+
 
 .portfolio-desc h3  a {
 	color: #fc0c62 !important;
@@ -764,9 +788,9 @@ section#members .heading-block span{
 
 /** TOUR OVERRIDES */
 section#tour {
-	margin-top: 0px;
-	padding-top: 60px;
-	padding-bottom: 30px !important;
+/*	margin-top: -40px;*/
+  padding-top: 30px;
+  padding-bottom: 40px;
 	background-color: #fff !important;
 }
 
