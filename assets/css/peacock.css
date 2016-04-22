@@ -120,13 +120,13 @@ nav#primary-menu.statick-sticky > ul{
 
 .button:hover {
 		font-family: "Open Sans", serif;
-    background-color: #548393 !important;
+    background-color: #0b5f62 !important;
     color: #fff !important;
 }
 
 .button.button-3d:hover{
 		font-family: "Open Sans", serif;
-    background-color: #6fa5b7 !important;
+    background-color: #0b5f62 !important;
     color: #fff !important;
 }
 
@@ -241,7 +241,11 @@ nav#primary-menu.statick-sticky > ul{
 #actions .schedule-online a.button{background-color:#fcb426  !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
 #actions .schedule-online a.button:hover{background-color:#c79229 !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
 
-.device-xs #actions .schedule-online a.button, .device-xxs #actions .schedule-online a.button {font-size:12px;padding:5px 10px !important;line-height:25px;}
+.device-xs #actions .schedule-online a.button, .device-xxs #actions .schedule-online a.button {
+    font-size: 15px;
+    padding: 20px 12px !important;
+    line-height: 25px;
+}
 #actions .existing-patients{margin-top:10px;}
 #actions .existing-patients p{font-size:24px;font-weight:300;margin:0;}
 .device-xs #actions .existing-patients p,
@@ -865,6 +869,10 @@ box-sizing: border-box;
 	background-color: #efefe9;
 }
 
+/*.resources-button{
+	background-color: #efefe9 !important;
+}*/
+
 .resources-border-1{
 	border-right: 1px solid #000;
 	height: 200px;
@@ -939,6 +947,10 @@ section#location {
 /*	background-color: #f4f9f9;*/
 	border-top: .5px solid #1f1b18;
 }
+
+#location .schedule-online a.button{background-color:#fcb426  !important;font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#location .schedule-online a.button{background-color:#fcb426  !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#location .schedule-online a.button:hover{background-color:#c79229 !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
 
 #contact-form {
     position: relative;
@@ -1485,7 +1497,7 @@ input, select, textarea {
 /*CUSTOM BUTTON COLOR*/
 
 .button{
-	background-color: #6fa5b7 !important;
+	background-color: #027d82 !important;
 	font-family: "Open Sans", serif;
 }
 
